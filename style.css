@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+</style>
 * {
   padding: 0;
   margin: 0;
@@ -130,6 +133,7 @@ body {
 .p5dis {
   font-size: 1.75vw;
   word-spacing: 4px;
+  font-family: 'Nunito', sans-serif;
 }
 .p2im {
   width: 22vw;
@@ -137,10 +141,16 @@ body {
 }
 .p4x {
   box-shadow: 3px 3px 2px rgb(180, 232, 255);
+  color: aliceblue;
   position: relative;
   left: 15%;
   width: 70%;
   height: 90%;
+}
+@media screen and (max-width:749px){
+  .p4x{
+    width: 50%;
+  }
 }
 .p4x:hover {
   background: linear-gradient(
