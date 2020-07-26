@@ -117,21 +117,21 @@ body {
 .p2head,
 .p3head,
 .p4head {
-  font-size: 4.1vw;
+  font-size: 3.9vw;
   color: orange;
 }
 .p2subhead,
 .p3subhead,
 .p4subhead,
 .p5subhead {
-  font-size: 2.75vw;
+  font-size: 2.65vw;
   color: gray;
 }
 .p2dis,
 .p3dis,
 .p4dis,
 .p5dis {
-  font-size: 1.75vw;
+  font-size: 1.65vw;
   word-spacing: 4px;
   font-family: "Nunito", sans-serif;
 }
@@ -147,9 +147,28 @@ body {
   width: 70%;
   height: 90%;
 }
-@media screen and (max-width: 749px) {
+/* making responsive */
+@media screen and (max-width: 757px) {
   .p4x {
     width: 50%;
+    position: relative;
+    left: 25%;
+  }
+  .p2dis,
+  .p3dis,
+  .p4dis {
+    font-size: 16px;
+  }
+  .p2subhead,
+  .p3subhead,
+  .p4subhead,
+  .p5subhead {
+    font-size: 22px;
+  }
+  .p2head,
+  .p3head,
+  .p4head {
+    font-size: 24px;
   }
 }
 .p4x:hover {
