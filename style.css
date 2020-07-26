@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-</style>
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -102,7 +102,7 @@ body {
   color: white; /* should be changed*/
   box-shadow: 0 0 4px rgb(69, 199, 254);
   margin-top: 400px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 }
 .container {
   background-color: rgb(10, 25, 47);
@@ -111,7 +111,7 @@ body {
   color: white; /* should be changed*/
   box-shadow: 0 0 4px rgb(69, 199, 254);
   margin-top: 400px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 100;
 }
 .p2head,
@@ -133,7 +133,7 @@ body {
 .p5dis {
   font-size: 1.75vw;
   word-spacing: 4px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 .p2im {
   width: 22vw;
@@ -147,8 +147,8 @@ body {
   width: 70%;
   height: 90%;
 }
-@media screen and (max-width:749px){
-  .p4x{
+@media screen and (max-width: 749px) {
+  .p4x {
     width: 50%;
   }
 }
