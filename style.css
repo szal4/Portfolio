@@ -21,6 +21,9 @@ body {
   box-shadow: 0 0 4px rgb(69, 199, 254);
   z-index: 20;
 }
+.nav-item {
+  text-align: center;
+}
 .navbar-nav li {
   padding-right: 40px;
 }
@@ -107,7 +110,7 @@ body {
 .container {
   background-color: rgb(10, 25, 47);
   width: 100vw;
-  min-height: 110vh;
+  min-height: 50vh;
   color: white; /* should be changed*/
   box-shadow: 0 0 4px rgb(69, 199, 254);
   margin-top: 400px;
@@ -118,7 +121,8 @@ body {
 .p3head,
 .p4head {
   font-size: 3.9vw;
-  color: orange;
+  /* color: orange; */
+  color: rgb(0, 238, 255);
 }
 .p2subhead,
 .p3subhead,
@@ -170,6 +174,9 @@ body {
   .p4head {
     font-size: 24px;
   }
+  .p3tt {
+    text-align: right;
+  }
 }
 .p4x:hover {
   background: linear-gradient(
@@ -202,4 +209,3 @@ body {
   top: 80%;
   left: 37vw;
 }
-/*end*/
