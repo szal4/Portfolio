@@ -129,7 +129,8 @@ body {
 .p4subhead,
 .p5subhead {
   font-size: 2.65vw;
-  color: gray;
+  /* color: gray;*/
+  color: rgb(111, 138, 219);
 }
 .p2dis,
 .p3dis,
@@ -150,6 +151,10 @@ body {
   left: 15%;
   width: 70%;
   height: 90%;
+}
+/* js icon in resume page3 */
+.p3extra {
+  text-align: center;
 }
 /* making responsive */
 @media screen and (max-width: 757px) {
@@ -176,6 +181,10 @@ body {
   }
   .p3tt {
     text-align: right;
+  }
+  /* p3 js icon */
+  .p3extra {
+    text-align: left;
   }
 }
 .p4x:hover {
