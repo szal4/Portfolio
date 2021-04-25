@@ -179,13 +179,15 @@ body {
   .p4head {
     font-size: 24px;
   }
+
   .p3tt {
     text-align: right;
   }
-  /* p3 js icon */
+  /* p3 js icon 
   .p3extra {
     text-align: left;
   }
+  */
 }
 .p4x:hover {
   background: linear-gradient(
